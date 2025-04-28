@@ -1,0 +1,13 @@
+{
+  "name": "backprojeto",
+  "version": "1.0.0",
+  "main": "src/sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Express", "API", "Node.js", "Desenvolvimento WEB", "Backend", "Informática"],
+  "author": "Mauricio Vaz Oliveira",
+  "license": "MIT",
+  "description": "Sistema de exemplo para curso Técnico de Informática do IFSP, aplicando API",
+  "type": "module"
+}
