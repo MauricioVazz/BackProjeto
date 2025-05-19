@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+import './database/ModelConnection.js'
 import homeRoutes from './routers/Home.Routes.js'
 import usuarioRoutes from './routers/Usuario.Routes.js'
 
@@ -19,7 +20,7 @@ class App {
 
     routes() {
         this.app.use('/', homeRoutes)
-        this.app.use('/usuarios', usuarioRoutes)
+        this.app.use('/usuario', usuarioRoutes)
     }
 }
 
